@@ -149,8 +149,12 @@ ul {
   height: 400px;
 }
 
-
-
+/*user*/
+.lt_main .table-bordered th,
+.lt_main .table-bordered td{
+  text-align: center;
+  vertical-align: middle;
+}
 
 
 

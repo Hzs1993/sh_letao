@@ -10,7 +10,7 @@ if(location.href.indexOf("login.html")===-1){
     dateType:"json",
     type:"get",
     success:function (info) {
-      console.log(info);
+
       if(info.error===400){
           location.href="login.html"
         }
