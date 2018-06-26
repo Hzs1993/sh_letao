@@ -28,8 +28,8 @@
       <li><a href="user.html"><i class="glyphicon glyphicon-user"></i><span>用户管理</span></a></li>
       <li>
         <a class="category" href="javascript:;"><i class="glyphicon glyphicon-list"></i><span>分类管理</span></a>
-        <div class="child">
-          <a href="first.html" class="current">一级分类</a>
+        <div class="child" style="display: none">
+          <a href="first.html">一级分类</a>
           <a href="second.html">二级分类</a>
         </div>
       </li>
@@ -51,9 +51,14 @@
 
     <ol class="breadcrumb">
       <li><a href="index.html">管理系统</a></li>
-      <li class="active">分类管理</li>
-      <li class="active">一级分类</li>
+      <li class="active">首页</li>
     </ol>
+
+    <div class="lt_content">
+      <!-- 两个图表, 需要两个具备宽高的容器 -->
+      <div class="echarts_1 pull-left"></div>
+      <div class="echarts_2 pull-right"></div>
+    </div>
 
 
   </div>
@@ -90,7 +95,9 @@
 <script src="./lib/bootstrap/js/bootstrap.min.js"></script>
 <script src="./lib/bootstrap-validator/js/bootstrapValidator.min.js"></script>
 <script src="./lib/nprogress/nprogress.js"></script>
+<script src="./lib/echarts/echarts.min.js"></script>
 <script src="js/common.js"></script>
+<script src="js/index.js"></script>
 
 
 
