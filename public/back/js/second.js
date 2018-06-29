@@ -21,7 +21,6 @@ $(function () {
         //console.log(info);
         var strHtml=template('tmp',info);
         $('tbody').html(strHtml);
-
         $('#paginator').bootstrapPaginator({
           bootstrapMajorVersion:3,
           currtPage:info.page,
@@ -31,13 +30,8 @@ $(function () {
                 render()
           }
         })
-
-
       }
-
     })
-
-
   }
 
 $('#btnadd').click(function () {
