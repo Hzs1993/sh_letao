@@ -40,7 +40,7 @@ $(function () {
 
   }
 
-$('.btn').click(function () {
+$('#btnadd').click(function () {
     $('#secondModal').modal('show')
 
   $.ajax({

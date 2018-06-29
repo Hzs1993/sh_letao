@@ -73,7 +73,7 @@ $(function () {
 
 //点击添加按钮模态框显示
 
-  $('.btn').click(function () {
+  $('#addbtn').click(function () {
       $('#addModal').modal('show')
       $.ajax({
         url:'/category/querySecondCategoryPaging',
